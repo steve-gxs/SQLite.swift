@@ -3,11 +3,11 @@ import PackageDescription
 
 let package = Package(
     name: "SQLite.swift",
-    products: [.library(name: "SQLite", targets: ["SQLite"])],
+    products: [.library(name: "SQLite", targets: ["SQLiteBinary"])],
     targets: [
         .binaryTarget(
-            name: "SQLite",
-            path: "SQLite.xcframework"
+            name: "SQLiteBinary",
+            path: "Sources/SQLite/SQLite.xcframework"
         )
     ],
     swiftLanguageVersions: [4, 5]

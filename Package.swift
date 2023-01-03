@@ -10,6 +10,5 @@ let package = Package(
             name: "SQLiteBinary",
             path: "Sources/SQLite/SQLite.xcframework"
         )
-    ],
-    swiftLanguageVersions: [4, 5]
+    ]
 )

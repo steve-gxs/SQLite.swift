@@ -9,7 +9,7 @@ let package = Package(
         .binaryTarget(
             name: "SQLiteBinary",
             url: "https://github.com/steve-gxs/SQLite.swift/raw/main/SQLite.xcframework.zip"
-            checksum:  "64dd1fac0a9b040556d78703237cf322b28827c05e9931b02a0d7cf7a0d98f4d"
+            checksum: "64dd1fac0a9b040556d78703237cf322b28827c05e9931b02a0d7cf7a0d98f4d"
         )
     ]
 )

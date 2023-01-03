@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SQLite.swift",
+    platforms: [.iOS(.v8)],
     products: [.library(name: "SQLite", targets: ["SQLiteBinary"])],
     targets: [
         .binaryTarget(
